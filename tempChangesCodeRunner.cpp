@@ -15,7 +15,7 @@ int main(){
 	
 	//validate all three temperatures are non negative. If negative cout. Invalid temperature input.
 	if((temp1 < 0) or (temp2 < 0) or (temp3 <0)){
-		cout << "Invalid temperature input";
+		cout << "Invalid temperature input.";
 		return 0;
 	}
 
