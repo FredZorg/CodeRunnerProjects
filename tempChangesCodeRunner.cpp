@@ -26,7 +26,7 @@ int main(){
 	//if (tempChange1 < tempChange2 
 	// cout The temperature is changing unpredictably. and return 0 to end the program.
 	if(((tempChange < 0) and (temp3 < temp2 or temp2 < temp1)) or ((tempChange > 0) and (temp3 > temp2 or temp2 > temp1)) or  (temp1 == temp2 or temp1 == temp3 or temp2 == temp3 )){
-		cout << "The temperature is changing unpredicatbly.";
+		cout << "The temperature is changing unpredictably.";
 		return 0;
 	} else if (tempChange < 0) {
 		cout << "It's getting warmer!";
